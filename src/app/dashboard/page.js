@@ -1,6 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import { FaUserCircle, FaChartPie, FaEdit, FaSignOutAlt } from 'react-icons/fa';
 import PublishDialog from '@/components/PublishDialog';
 
@@ -13,7 +14,6 @@ export default function DashboardPage() {
   const [user, setUser] = useState({ fullName: 'Guest User' });
 
   useEffect(() => {
-    // Fetch user from localStorage/sessionStorage (example)
     const savedUser = localStorage.getItem('user');
     if (savedUser) {
       setUser(JSON.parse(savedUser));
@@ -61,9 +61,9 @@ export default function DashboardPage() {
           <a href="#editor" className="flex items-center gap-2 text-secondary-300 hover:text-white transition">
             <FaEdit /> New Post
           </a>
-          <a href="/" className="flex items-center gap-2 text-secondary-300 hover:text-white transition">
+          <Link href="/" className="flex items-center gap-2 text-secondary-300 hover:text-white transition">
             <FaSignOutAlt /> Log Out
-          </a>
+          </Link>
         </nav>
       </aside>
 
