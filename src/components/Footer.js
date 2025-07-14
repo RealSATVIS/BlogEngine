@@ -40,7 +40,7 @@ export default function Footer() {
         <div>
           <h3 className="text-base font-semibold mb-3">Developed By</h3>
           <a
-            href="https://github.com/IceHawk11"
+            href="https://github.com/RealSATVIS"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm text-secondary-400 hover:text-white transition"
