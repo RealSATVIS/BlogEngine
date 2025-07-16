@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Vitalis
 
-## Getting Started
+## Smart Sustainable Agricultural Monitoring & Management Hub 
+### Monitoring
 
-First, run the development server:
+- **System Status:** [Live Uptime Dashboard](https://vitalis.cronitorstatus.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## Home
+![Home](https://raw.githubusercontent.com/RealSATVIS/Vitalis/refs/heads/master/shots/Home.JPG)
+
+
+
+The homepage is designed to be **minimalistic** in nature and **versatile** for users to navigate thorugh the features.
+
+## Dashboard
+![Dashboard](https://raw.githubusercontent.com/RealSATVIS/Vitalis/refs/heads/master/shots/Dashboard.png)
+
+
+A sleek and comprehensive dashboard displays the **weather and soil parameters** for any particular city selected.
+
+
+## Disease Detection
+![Disease Detection](https://raw.githubusercontent.com/RealSATVIS/Vitalis/refs/heads/master/shots/Detection.JPG)
+
+
+Analyzing leaf picture to detect diseases present by implementation of **YOLO v11 deep learning model** and recommending the preventive measures to be taken along with **multilingual support** and **text-to-speech synthesis** leveraging the same. 
+
+
+## Marketplace
+![Marketplace](https://raw.githubusercontent.com/RealSATVIS/Vitalis/refs/heads/master/shots/Marketplace.JPG)
+
+
+A **streamlined and user-friendly** marketplace for the purchase of exotic crops.
+
+## Technologies Used
+
+| Category          | Technology                                |
+|-------------------|-------------------------------------------|
+| Frontend          | React, Tailwind CSS, Framer Motion, ShadCN|
+| Backend           | Node.js, JavaScript, Python               |
+| Database          | Appwrite, MongoDB                         |
+| Deployment        | Vercel                                    |
+| Containerization  | Docker                                    |
+| Caching           | Redis (Cloud setup - RedisLabs)           |
+| Monitoring        | Cronitor Status                  |
+| Future Updates    | RabbitMQ (VM in GCE)                      |
+
+## 🚀 Getting Started (Local Setup)
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+```cmd
+git clone https://github.com/your-foldername/vitalis.git
+cd vitalis
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Make sure node.js is installed in your machine
+To check
+```cmd
+node --version
+```
+if not then install it 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3. Install the local dependencies or modules
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```cmd
+npm install
+```
+### 4. Start the server and a webpage will appear
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```cmd
+npm start
+```
