@@ -1,4 +1,4 @@
-#  Vitalis
+#  BlogEngine Pro
 
 ## Smart Sustainable Agricultural Monitoring & Management Hub 
 ### Monitoring
