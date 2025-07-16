@@ -8,31 +8,26 @@
 ---
 
 ## Home
-![Home](https://raw.githubusercontent.com/RealSATVIS/Vitalis/refs/heads/master/shots/Home.JPG)
+![Home](https://raw.githubusercontent.com/RealSATVIS/BlogEngine/refs/heads/master/shots/1.png)
 
 
 
 The homepage is designed to be **minimalistic** in nature and **versatile** for users to navigate thorugh the features.
 
+## Features
+![Features](https://raw.githubusercontent.com/RealSATVIS/BlogEngine/refs/heads/master/shots/2.png)
+
+
+Users can write in **markdown, upload media, schedule posts, authenticate securely, and view analytics.** 
+
+
 ## Dashboard
-![Dashboard](https://raw.githubusercontent.com/RealSATVIS/Vitalis/refs/heads/master/shots/Dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/RealSATVIS/BlogEngine/refs/heads/master/shots/3.png)
 
 
-A sleek and comprehensive dashboard displays the **weather and soil parameters** for any particular city selected.
+The dashboard allows users to create and edit markdown posts leveraging **react-markdown** , **upload media, schedule future publications, manage existing posts, and view basic analytics—all** from a single unified interface.
 
 
-## Disease Detection
-![Disease Detection](https://raw.githubusercontent.com/RealSATVIS/Vitalis/refs/heads/master/shots/Detection.JPG)
-
-
-Analyzing leaf picture to detect diseases present by implementation of **YOLO v11 deep learning model** and recommending the preventive measures to be taken along with **multilingual support** and **text-to-speech synthesis** leveraging the same. 
-
-
-## Marketplace
-![Marketplace](https://raw.githubusercontent.com/RealSATVIS/Vitalis/refs/heads/master/shots/Marketplace.JPG)
-
-
-A **streamlined and user-friendly** marketplace for the purchase of exotic crops.
 
 ## Technologies Used
 
@@ -55,8 +50,8 @@ Follow these steps to run the project locally:
 ### 1. Clone the Repository
 
 ```cmd
-git clone https://github.com/your-foldername/vitalis.git
-cd vitalis
+git clone https://github.com/RealSATVIS/BlogEngine.git
+cd frontend
 ```
 
 ### 2. Make sure node.js is installed in your machine
@@ -74,5 +69,6 @@ npm install
 ### 4. Start the server and a webpage will appear
 
 ```cmd
-npm start
+npm run dev
 ```
+- **Link to the current backend service** [Render](https://blog-backend-38ol.onrender.com/)
