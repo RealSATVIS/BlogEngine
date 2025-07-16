@@ -3,7 +3,7 @@
 ## Smart Sustainable Agricultural Monitoring & Management Hub 
 ### Monitoring
 
-- **System Status:** [Live Uptime Dashboard](https://vitalis.cronitorstatus.com/)
+- **System Status:** [Live Uptime Dashboard](https://blogengine.cronitorstatus.com/)
 
 ---
 
@@ -38,10 +38,11 @@ A **streamlined and user-friendly** marketplace for the purchase of exotic crops
 
 | Category          | Technology                                |
 |-------------------|-------------------------------------------|
-| Frontend          | React, Tailwind CSS, Framer Motion, ShadCN|
-| Backend           | Node.js, JavaScript, Python               |
+| Frontend          | Next.js, Tailwind CSS, Framer Motion, ShadCN|
+| Backend           | Node.js, Express                          |
 | Database          | Appwrite, MongoDB                         |
-| Deployment        | Vercel                                    |
+| Frontend Deployment        | Vercel                                    |
+| Backend Deployment| Render                                    |
 | Containerization  | Docker                                    |
 | Caching           | Redis (Cloud setup - RedisLabs)           |
 | Monitoring        | Cronitor Status                  |
