@@ -4,7 +4,7 @@
 ### Monitoring
 
 - **System Status:** [Live Uptime Dashboard](https://blogengine.cronitorstatus.com/)
-- **Link to the current backend service** [Render](https://blog-backend-38ol.onrender.com/)
+- **Link to the current backend service:** [Render](https://blog-backend-38ol.onrender.com/)
 
 ---
 
